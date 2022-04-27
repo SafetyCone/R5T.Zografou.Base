@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Zografou.Base.Construct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Zografou.Base", "R5T.Zografou.Base\R5T.Zografou.Base.csproj", "{BA592920-65DB-4AEE-A51D-8DEF68233544}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{7A7D1F8D-5CE6-4ABF-A9E2-B1EFFA3DF7C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{5BC620BE-90C0-4650-8D1F-B00BAAA36CBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +48,20 @@ Global
 		{BA592920-65DB-4AEE-A51D-8DEF68233544}.Release|x64.Build.0 = Release|Any CPU
 		{BA592920-65DB-4AEE-A51D-8DEF68233544}.Release|x86.ActiveCfg = Release|Any CPU
 		{BA592920-65DB-4AEE-A51D-8DEF68233544}.Release|x86.Build.0 = Release|Any CPU
+		{5BC620BE-90C0-4650-8D1F-B00BAAA36CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC620BE-90C0-4650-8D1F-B00BAAA36CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC620BE-90C0-4650-8D1F-B00BAAA36CBB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5BC620BE-90C0-4650-8D1F-B00BAAA36CBB}.Debug|x64.Build.0 = Debug|Any CPU
+		{5BC620BE-90C0-4650-8D1F-B00BAAA36CBB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5BC620BE-90C0-4650-8D1F-B00BAAA36CBB}.Debug|x86.Build.0 = Debug|Any CPU
+		{5BC620BE-90C0-4650-8D1F-B00BAAA36CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC620BE-90C0-4650-8D1F-B00BAAA36CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC620BE-90C0-4650-8D1F-B00BAAA36CBB}.Release|x64.ActiveCfg = Release|Any CPU
+		{5BC620BE-90C0-4650-8D1F-B00BAAA36CBB}.Release|x64.Build.0 = Release|Any CPU
+		{5BC620BE-90C0-4650-8D1F-B00BAAA36CBB}.Release|x86.ActiveCfg = Release|Any CPU
+		{5BC620BE-90C0-4650-8D1F-B00BAAA36CBB}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5BC620BE-90C0-4650-8D1F-B00BAAA36CBB} = {7A7D1F8D-5CE6-4ABF-A9E2-B1EFFA3DF7C2}
 	EndGlobalSection
 EndGlobal
